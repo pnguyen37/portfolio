@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Ethereal";
+  font-style: normal;
+  src: local(""),
+    url("assets/fonts/EtherealDemoFont-Regular.otf") format("opentype");
+}
+* {
+  color: black;
+  margin: 0px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h1 {
+  /* font-family: "Ethereal"; */
+  /* font-weight: 400; */
+  /* text-transform: uppercase; */
+  /* letter-spacing: 3px;
+  font-size: 64px; */
+}
+
+.App {
+  /* padding: 0% 5%; */
+}
+
+iframe {
+  border: 0px;
+}

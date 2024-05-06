@@ -1,0 +1,113 @@
+/* @font-face {
+  font-family: "Inter";
+  font-style: normal;
+  src: local(""),
+    url("fonts/Inter/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+} */
+
+/* * {
+  font-family: "Inter";
+  color: #494f5a;
+} */
+
+.ResponsiveRedesign {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0px;
+
+  h1,
+  h2,
+  h3 {
+    font-weight: 600;
+  }
+
+  h2 {
+    text-transform: uppercase;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  li {
+    margin: 0em;
+  }
+
+  .projectInfo {
+    display: flex;
+    justify-content: space-between;
+
+    .projectDetails {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      max-height: 100%;
+      justify-content: space-between;
+    }
+
+    .overview {
+      width: 60%;
+    }
+  }
+
+  .spacing {
+    margin: 4px 0px;
+    border-top: none;
+    visibility: hidden;
+  }
+
+  .widthContainer {
+    display: flex;
+    padding: 0rem 15%;
+    flex-direction: column;
+    max-width: 1000px;
+    gap: 40px;
+
+    .section {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+
+  .imgContainer {
+    background-color: #e8e7e3;
+    padding: 10px;
+  }
+
+  .scrollable {
+    max-height: 575px;
+    overflow-y: scroll;
+  }
+
+  .screenshot {
+    width: 100%;
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    background-color: #e8e7e3;
+  }
+
+  .bold {
+    font-weight: 600;
+  }
+
+  .underlined {
+    text-decoration: underline;
+  }
+
+  hr {
+    border-top: 1px solid #494f5a;
+    width: 100%;
+  }
+
+  .frame {
+    background-color: transparent;
+  }
+}

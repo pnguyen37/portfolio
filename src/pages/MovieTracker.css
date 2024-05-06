@@ -1,0 +1,153 @@
+/* @font-face {
+  font-family: "Inter";
+  font-style: normal;
+  src: local(""),
+    url("fonts/Inter/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+}
+
+* {
+  font-family: "Inter";
+  font-weight: 400;
+  color: #494f5a;
+} */
+
+.MovieTracker {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0px;
+
+  h1,
+  h2,
+  h3 {
+    font-weight: 600;
+  }
+
+  h2 {
+    text-transform: uppercase;
+  }
+
+  .spacing {
+    border-top: none;
+    visibility: hidden;
+    margin: 4px 0px;
+  }
+
+  .projectInfo {
+    display: flex;
+    justify-content: space-between;
+
+    .projectDetails {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      max-height: 100%;
+      justify-content: space-between;
+    }
+
+    .overview {
+      width: 60%;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: auto;
+  }
+
+  li {
+    margin: 0em;
+  }
+
+  .widthContainer {
+    display: flex;
+    padding: 0rem 15%;
+    max-width: 1000px;
+    gap: 40px;
+    flex-direction: column;
+
+    .section {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+
+  .spanImg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+    .spanComponent {
+      width: 50%;
+      .imgContainer {
+        width: 90%;
+      }
+    }
+  }
+  .imgContainer {
+    background-color: #e8e7e3;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .scrollable {
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+
+  .screenshot {
+    width: 100%;
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    background-color: #d2d5d2;
+  }
+
+  .bold {
+    font-weight: 600;
+  }
+
+  .underlined {
+    text-decoration: underline;
+  }
+
+  hr {
+    border-top: 1px solid #494f5a;
+    width: 100%;
+  }
+
+  h2 {
+    margin-bottom: auto;
+  }
+
+  h3,
+  h4 {
+    margin-bottom: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+  }
+  th,
+  td {
+    border: 1px solid #494f5a;
+    padding: 8px;
+  }
+
+  th {
+    background-color: rgb(210, 222, 222);
+  }
+
+  colgroup {
+    background-color: #e8e7e3;
+  }
+}
