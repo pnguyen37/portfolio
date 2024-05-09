@@ -1,24 +1,34 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./NavBar.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function NavBar() {
+  const location = useLocation();
+  const [activePage, setActivePage] = useState("");
+
+  useEffect(() => {
+    setActivePage(location.pathname); // Update activePage state when location changes
+  }, [location]);
+
   return (
     <nav>
-      <div>
-        <Link className="navText" to="/">
+      <div className="nameText">
           Pauline Nguyen
-        </Link>
       </div>
       <div className="navLinks">
-        <Link className="navText" to="/">
+        <Link
+          className={activePage === "/" ? "active navText" : "navText"}
+          to="/"
+        >
           Work
         </Link>
-        <Link className="navText" to="/about">
+        <Link
+          className={activePage === "/about" ? "active navText" : "navText"}
+          to="/about"
+        >
           About
         </Link>
         <a className="navText" href="">
-          {" "}
           Resume{" "}
         </a>
       </div>

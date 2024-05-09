@@ -4,11 +4,15 @@ import { Link } from "react-router-dom";
 
 export default function ProjectCard(props) {
   return (
-    <Link to={props.page}>
-      <div className="ProjectCard">
-        <img alt={props.alt} src={props.img}/>
-        <h2>{props.name}</h2>
-      </div>
-    </Link>
+    <div className="ProjectCard">
+      <Link to={props.page}>
+        <img alt={props.alt} src={props.img} />
+        <div className="textbox">
+          <h2 className="bold">{props.name}</h2>
+          <p>{props.desc}</p>
+          <p className="skillsText">{props.skills}</p>
+        </div>
+      </Link>
+    </div>
   );
 }

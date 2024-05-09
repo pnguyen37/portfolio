@@ -1,16 +1,19 @@
 @font-face {
-  font-family: "Ethereal";
+  font-family: "Coolvetica";
   font-style: normal;
   src: local(""),
-    url("assets/fonts/EtherealDemoFont-Regular.otf") format("opentype");
+    url("assets/fonts/coolvetica.rg-regular.otf") format("opentype");
 }
 * {
   color: black;
   margin: 0px;
+  font-family: "Inter";
 }
 
+h1,
 h2 {
   font-weight: 400;
+  font-family: "Coolvetica";
 }
 
 h1 {
@@ -23,8 +26,18 @@ h1 {
 
 .App {
   /* padding: 0% 5%; */
+  background-color: #f0efed;
 }
 
 iframe {
   border: 0px;
+}
+
+.subsection:hover {
+  h3 {
+    width: fit-content;
+    text-decoration: underline;
+    text-decoration-color: #e3d589;
+    text-decoration-thickness: 3px;
+  }
 }

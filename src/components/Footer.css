@@ -1,0 +1,43 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1) inset;
+  padding: 5%;
+  position: relative;
+  z-index: 1;
+  background-color: #e2e1dc;
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    p {
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+  .footerLinks {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    .logoCircle {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+      border-radius: 50%;
+      padding: 10px;
+    }
+    .logoCircle:hover {
+      cursor: pointer;
+      transition: transform 0.4s ease;
+      transform: scale(1.03);
+      background-color: #e3d589;
+    }
+    img {
+      max-width: 30px;
+    }
+  }
+}

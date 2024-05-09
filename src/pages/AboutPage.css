@@ -11,7 +11,7 @@
     url("../assets/fonts/coolvetica.rg-regular.otf") format("opentype");
 }
 
-.HomePage {
+.AboutPage {
   h2 {
     font-family: "Inter";
     font-size: 20px;
@@ -19,22 +19,28 @@
   h3 {
     font-size: 16px;
   }
+  .header {
+    font-size: 2.5rem;
+  }
 }
 
 h3 {
   font-weight: 400;
 }
 
-.landing {
+.aboutSection {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 77vh;
+  img {
+    width: 350px;
+  }
 }
 
-.landingContent {
+.aboutContent {
   display: flex;
-  max-width: 75%;
+  max-width: 70%;
   align-items: center;
   gap: 3em;
 }

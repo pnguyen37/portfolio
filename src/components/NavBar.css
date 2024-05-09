@@ -6,9 +6,8 @@ nav {
   padding: 0% 5%;
   position: relative;
   z-index: 1;
-  /* background-color: #e8e7e3; */
-  border-bottom: 1px solid #e8e7e3;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #e2e1dc;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navLinks {
@@ -16,7 +15,27 @@ nav {
   gap: 20px;
 }
 
+.nameText {
+  font-weight: 600;
+}
+
 .navText {
   text-decoration: none;
   font-weight: 600;
+  padding: 1px 10px;
+  border-radius: 15px;
+}
+
+.active {
+  /* text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #e3d589; */
+  background-color: #e3d589;
+}
+
+.navText:hover {
+  /* text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #e3d589; */
+  background-color: #e3d589;
 }

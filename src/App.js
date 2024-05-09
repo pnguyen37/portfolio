@@ -3,6 +3,7 @@ import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import AboutPage from './pages/AboutPage';
 import HomePage from "./pages/HomePage";
 import ResponsiveRedesign from './pages/ResponsiveRedesign';
@@ -23,6 +24,7 @@ function App() {
             <Route path="/movie-tracker" element={<MovieTracker />} />
           </Route>
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );
