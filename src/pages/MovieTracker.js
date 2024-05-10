@@ -394,7 +394,10 @@ export default function MovieTracker() {
             <p>
               Here is the final page I implemented using React, HTML, and CSS. I
               used React for more flexibility, as I could easily resuse core
-              components like card items.
+              components like card items. I included the sorting, filtering, and
+              resetting functionality all on one line for ease of use. Clicking
+              the favorite button will add a movie to the favorite list on top,
+              or remove it if it has already been added.
             </p>
             <div className="imgContainer">
               <img
