@@ -91,6 +91,7 @@
     flex-direction: column;
     max-width: 1000px;
     gap: 40px;
+    align-self: center;
 
     .section {
       display: flex;

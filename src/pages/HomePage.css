@@ -124,3 +124,16 @@ h3 {
   grid-template-columns: 1fr 1fr;
   gap: 32px;
 }
+
+@media (max-width: 650px) {
+  .landingContent {
+    flex-direction: column-reverse;
+    text-align: center;
+    h3 {
+      align-self: center;
+    }
+    img {
+      width: 200px;
+    }
+  }
+}

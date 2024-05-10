@@ -81,6 +81,7 @@
     max-width: 1000px;
     gap: 40px;
     padding: 40px 15% 64px 15%;
+    align-self: center;
 
     .section {
       display: flex;

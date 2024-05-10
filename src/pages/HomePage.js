@@ -40,6 +40,7 @@ export default function HomePage() {
               name="East Side Pockets Redesign"
               page="redesign"
               img={redesignCover}
+              alt="East Side Pockets design cover"
               desc="Redesign of a restaurant ordering page to be more responsive"
               skills="HTML | CSS | Figma | Redesign "
             />
@@ -47,6 +48,7 @@ export default function HomePage() {
               name="Uno Health Application Design"
               page="unohealth"
               img={unoCover}
+              alt="Uno Health design cover"
               desc="Improving the application process for a Medicare enrollment company"
               skills="Figma | Prototyping"
             />
@@ -54,6 +56,7 @@ export default function HomePage() {
               name="Movie Tracker"
               page="movie-tracker"
               img={movieCover}
+              alt="Movie Tracker design cover"
               desc="A web app to filter, sort, and keep track of favorite movies"
               skills="React | HTML | CSS"
             />

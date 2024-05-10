@@ -320,12 +320,12 @@ export default function UnoHealth() {
                 <span className="bold">
                   Added preparation page for context:
                 </span>{" "}
-                This page allows user to have more context before going into the
-                upload process. It ensures users know what to expect and have
-                documents ready before they begin uploading. It is also a
-                centralized place for users to navigate to the desired upload
-                page and keep track of their progress and which documents they
-                have yet to upload.
+                I proposed adding a preparation page to give the user more
+                context before they enter into the upload process. It ensures
+                users know what to expect and have documents ready before they
+                begin uploading. It is also a centralized place for users to
+                navigate to the desired upload page and keep track of their
+                progress and which documents they have yet to upload.
                 <div style={{ width: "50%" }} className="listImg">
                   <img
                     className="prep"
@@ -336,10 +336,10 @@ export default function UnoHealth() {
               </li>
               <li>
                 <span className="bold">Clarified application entry point:</span>{" "}
-                To begin the upload process, users click "Go to applcication"
-                rather than "Upload documents," which more clearly indicates
-                that the user will not be directly uploading/re-uploading their
-                documents from the home page, but will be redirected.
+                I also proposed changing the initial upload button from "Upload
+                documents," to "Go to applcication" because this clearly indicates that the user
+                will not be directly uploading/re-uploading their documents from
+                the home page, but will be redirected.
               </li>
               <li>
                 <span className="bold">Clarified dropdown button:</span> The
