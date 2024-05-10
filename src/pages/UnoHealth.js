@@ -13,6 +13,7 @@ import SophieSketch2 from "../assets/images/uno/sketches/SophieSketch2.png";
 import Lowfi1 from "../assets/images/uno/figma/Lo-fi1.png";
 import Lowfi2 from "../assets/images/uno/figma/Lo-fi2.png";
 import PrepPage from "../assets/images/uno/figma/Prep-page.png";
+import UploadPage from "../assets/images/uno/figma/upload-page.png";
 import HomePage from "../assets/images/uno/figma/Home-page.png";
 import MyHomePage from "../assets/images/uno/figma/my-home-page.png";
 import Warning from "../assets/images/uno/figma/Warning.png";
@@ -46,17 +47,19 @@ export default function UnoHealth() {
           <div className="projectInfo">
             <div className="overview">
               <p>
-                A design project made for the startup{" "}
-                <a className="bold" href="https://www.unohealth.com/">
+                This is a design project for the startup{" "}
+                <a
+                  className="bold underlined"
+                  href="https://www.unohealth.com/"
+                >
                   Uno Health
                 </a>
                 , a company that focuses on helping Medicare-eligible users get
-                the government benefits they are entitled to. We worked on
-                redesigning their document upload experience for a household
-                application (e.g., an individual and their spouse), and in the
-                process made improvements to the homepage and eligibility check.
-                Iteration based on critique was a key component of our design
-                process.
+                the government benefits they are entitled to. I worked with
+                other designers to redesign their document upload experience for
+                a household application (e.g., an individual and their spouse).
+                I was responsible for the initial design of the homepage, from
+                which users begin the upload process.
               </p>
             </div>
             <div className="projectDetails">
@@ -67,7 +70,7 @@ export default function UnoHealth() {
                 <span className="bold">Team:</span> 4 Designers
               </p>
               <p>
-                <span className="bold">Skills:</span> Figma, Loom
+                <span className="bold">Skills:</span> Figma, Prototyping
               </p>
               <p>
                 <span className="bold">Timeline:</span> 2 weeks (2024)
@@ -80,13 +83,12 @@ export default function UnoHealth() {
           <h2 className="uppercase">The Problem ⚙</h2>
           <hr />
           <p>
-            As Uno Health's website currently stands, if users were to complete
-            the application process for them and their spouse, there exists many
-            duplicate upload sites for the separate persons. This makes the
-            interface slightly overwhelming, so we were tasked to come up with a
-            design that would alleviate this issue. We aimed to make both the
-            home page and the upload pages easier to navigate to prevent mixups
-            in the upload process.
+            Uno Health's website has duplicate upload sites for joint
+            applications. This makes the interface overwhelming and confusing
+            for all members of the household, especially since there are many
+            documents that could be mixed up in the upload process. We aimed to
+            make both the home page and the upload pages easier to navigate to
+            prevent confusion.
           </p>
         </div>
 
@@ -210,10 +212,14 @@ export default function UnoHealth() {
             </a> */}
             <p>
               I was responsible for making the home page. Three of the major
-              changes that I made to the layout were moving the application
-              status towards the top of the page to ground the user in the
-              process, including separate profiles to prevent mixup between
-              different members, and adding a dropdown route to allow the user
+              changes that I made to the layout were{" "}
+              <span className="bold">
+                moving the application status towards the top
+              </span>{" "}
+              of the page to ground the user in the process, including{" "}
+              <span className="bold">separate profiles </span>to prevent mixup
+              between different members, and adding a{" "}
+              <span className="bold">dropdown route</span> to allow the user
               flexibility in navigating to a specific page.
             </p>
             <div className="wideImg">
@@ -302,6 +308,13 @@ export default function UnoHealth() {
                 provide more information for the user. Every upload page allows
                 users to view and delete uploaded documents. This was done to
                 address the edge cases brought up in critique.
+                <div className="listImg">
+                  <img
+                    className="prep"
+                    src={UploadPage}
+                    alt="low fidelity upload page"
+                  />
+                </div>
               </li>
               <li>
                 <span className="bold">
@@ -313,7 +326,7 @@ export default function UnoHealth() {
                 centralized place for users to navigate to the desired upload
                 page and keep track of their progress and which documents they
                 have yet to upload.
-                <div className="listImg">
+                <div style={{ width: "50%" }} className="listImg">
                   <img
                     className="prep"
                     src={PrepPage}
@@ -367,24 +380,19 @@ export default function UnoHealth() {
               link
             </a> */}
             <p>
-              One minor change we included was the shade of red used for
-              semantic purposes. We were provided with a red color by the
-              client's style guide, but when put in contrast with the
-              yellow-white background, the red looked a bit more like an orange
-              and did not have as much of a "warning" feeling. Therefore, we
-              used a brighter red color for the incomplete documents.
-            </p>
-            <img
-              src={Warning}
-              alt="components showing missing document and uploaded document"
-            />
-            <p>
               For icons, buttons, and other components, we stuck to the designs
-              given to us in the example pages. However, we added a couple new
-              colored icons and components (shown above) for purposes like
-              warnings and successes, as we felt the color helped them stand out
-              more.
+              given to us in the brand kit. However, we added a couple new{" "}
+              <span className="bold">colored icons and components</span> (shown
+              below) for purposes like{" "}
+              <span className="bold">warnings and successes</span>, as we felt
+              the color helped them stand out more.
             </p>
+            <div className="imgContainer">
+              <img
+                src={Warning}
+                alt="components showing missing document and uploaded document"
+              />
+            </div>
           </div>
         </div>
 
@@ -395,14 +403,13 @@ export default function UnoHealth() {
             <h3>Prototype</h3>
             <p>
               We combined the styling from the style guide and the layout from
-              our wireframes to get a final prototype. Structure-wise, our final
-              design was centered around the same principles as our wireframes:
-              spreading out the uploading process into multiple pages and
-              creating multiple ways of interacting with the upload flow. We
-              paid specific attention to making sure that users knew
-              instinctively what to click on by highlighting specific buttons in
-              dark green (moving on to the next document, starting the upload
-              process, etc.).
+              our wireframes to get a final prototype. The major design choices
+              were using <span className="bold"> one page per upload</span> and
+              creating{" "}
+              <span className="bold">multiple ways of navigating </span>
+              the upload process We also used styling to guide the user by
+              highlighting
+              <span className="bold"> important actions in dark green</span> .
             </p>
             <div className="wideImg imgContainer">
               <iframe
@@ -474,7 +481,7 @@ export default function UnoHealth() {
           <p>
             While working with other designers, I learned how to advocate for my
             design while still being open to feedback. It was a meaningful
-            experience learning how to incorporate everyone's design style into
+            experience learning how to incorporate everyone's design styles into
             one final product. I also learned the importance of an iterative
             design process, as the feedback we received at each step was crucial
             in improving the usability of our design. Hearing a lot of different

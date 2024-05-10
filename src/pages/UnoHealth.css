@@ -112,6 +112,13 @@
     font-weight: 600;
   }
 
+  .underlined {
+    text-decoration: underline;
+  }
+  .underlined:hover {
+    background-color: #e3d589;
+  }
+
   hr {
     border-top: 1px solid #494f5a;
     width: 100%;
@@ -129,6 +136,10 @@
 
   .listImg {
     margin: 12px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #e8e7e3;
   }
 
   .restrict {
@@ -142,15 +153,6 @@
     margin-right: auto; */
   }
 
-  .prep {
-    width: 50%;
-    padding: 10px;
-    background-color: #e8e7e3;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-
   html {
     max-width: 1100px;
     margin-left: auto;
@@ -158,6 +160,11 @@
     width: 100%;
   }
 
+  .prep {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   img {
     object-fit: contain;
     max-width: 100%;

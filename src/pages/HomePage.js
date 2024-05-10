@@ -25,7 +25,7 @@ export default function HomePage() {
               University. I'm interested in using my knowledge of software and
               design to make user-friendly applications.
             </h2>
-            <h3>Check out my work below ↓</h3>
+            <h3>Check out my work below! ↓</h3>
           </div>
           <img className="profile" alt="Pauline's Profile" src={flowers} />
         </div>

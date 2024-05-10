@@ -22,7 +22,7 @@ export default function MovieTracker() {
           <div className="projectInfo">
             <div className="overview">
               <p>
-                In this project, I conducted a competitive analysis between
+                This is a development project in which I conducted a competitive analysis between
                 three different companies to analyze the design choices made by
                 industry experts. I looked at features related to the filtering
                 and sorting functionality of the page, then implemented a
@@ -292,8 +292,8 @@ export default function MovieTracker() {
           <div className="subsection">
             <h3 className="bold">Implementation Plan</h3>
             <p>
-              Based on what worked well, I chose to implement the following
-              features.
+              I chose to implement the following features based on what worked
+              well for the three pages I looked at.
             </p>
             <ul>
               <li>
@@ -404,12 +404,12 @@ export default function MovieTracker() {
               ></img>
             </div>
             <p>
-              To visit the page directly, click{" "}
+              Visit the page at:{" "}
               <a
-                className="bold"
+                className="bold underlined"
                 href="https://development-movie-tracker.vercel.app/"
               >
-                here!
+                Movie-Tracker App
               </a>
             </p>
           </div>

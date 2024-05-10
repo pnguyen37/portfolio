@@ -28,18 +28,17 @@ export default function ResponsiveRedesign() {
             <div className="overview">
               <p>
                 This is a redesign project attempting to improve the usability
-                and accessibility of the
+                and accessibility of the{" "}
                 <a
                   className="bold underlined"
                   href="https://www.ediningexpress.com/live20/617/1130/"
                 >
-                  {" "}
-                  East Side Pockets{" "}
-                </a>
-                ordering page. This process involved sketching and wireframing
-                to address the major usability issues in the layout, and making
-                a visual style guide and high fidelity mockup to finalize the
-                style of the new design before implementation.
+                  East Side Pockets
+                </a>{" "}
+                ordering page. I began by sketching and wireframing to address
+                the major usability issues in the layout, and then made a visual
+                style guide and high fidelity mockup to finalize the style of
+                the new design before implementation.
               </p>
             </div>
             <div className="projectDetails">
@@ -47,7 +46,7 @@ export default function ResponsiveRedesign() {
                 <span className="bold">Role:</span> Designer and Developer
               </p>
               <p>
-                <span className="bold">Skills:</span> Figma, HTML, CSS
+                <span className="bold">Skills:</span> Figma, HTML, CSS, Redesign
               </p>
               <p>
                 <span className="bold">Timeline:</span> 3 weeks (2024)
@@ -80,8 +79,7 @@ export default function ResponsiveRedesign() {
               I started to identify usability issues by taking note of the
               problems I ran into when interacting with the page. I found that
               the main usability issues could be categorized into the following
-              groups: affordances, responsiveness, alignment, inefficiency, and
-              memorability.
+              groups: affordances, responsiveness, and alignment.
             </p>
             <ul>
               <li>
@@ -109,27 +107,6 @@ export default function ResponsiveRedesign() {
                   interfere with left alignment of text. Some images are big
                   enough to take up the whole screen. There is a lot of unused
                   space on right side when the order is empty.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <span className="bold">Inefficiency:</span> When the order
-                  receipt gets too large, the button to order and some of the
-                  food items get cut off and you can't scroll the receipt
-                  without scrolling to the top or bottom of the page. Images
-                  need to be clicked on separately from the menu item to be seen
-                  more clearly. You can't navigate between sections without
-                  going to the top first.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <span className="bold">Memorability:</span> Too many
-                  redirection links in the banner and nav bar may make it
-                  difficult for the user to remember where they should go or
-                  which link they should use to get there. Inconsistency with
-                  hover effects may make the user forget what is clickable,
-                  especially for different links in the footer.
                 </p>
               </li>
             </ul>
@@ -187,15 +164,15 @@ export default function ResponsiveRedesign() {
             <p>
               Once I identified issues to address in the original page, I made 9
               sketches to brainstorm new designs for the page, which I combined
-              into a final sketch. The final sketch included some of my favorite
-              components: a banner with dropdown buttons, a two-column display,
-              clickable cards with images, and a footer with navigation links.
-              The dropdown buttons and footer allowed me to condense the content
-              from the banner to make it less crowded. The two-column display
+              into a final sketch with some of my favorite components. The{" "}
+              <span className="bold">dropdown buttons</span> in the banner and{" "}
+              <span className="bold">footer with navigation links</span> allowed
+              me to condense the content from the banner to make it less
+              crowded. The <span className="bold">two-column display</span>{" "}
               worked well for convention reasons (physical menus have two
-              columns). The clickable cards helped make each menu item more
-              consistent in layout and more easy to interact with, as opposed to
-              a small link.
+              columns). The <span className="bold">clickable cards </span>helped
+              make each menu item more consistent in layout and more easy to
+              interact with, as opposed to a small link.
             </p>
             <div className="gridContainer">
               <img
@@ -221,8 +198,6 @@ export default function ResponsiveRedesign() {
               affordances and misalignment. I tackled the issue of poor
               affordances by making interactive components more obvious to the
               user, and spacing issues by reorganizing the placement of content.
-              I addressed memorability and efficiency issues by making the
-              layout more cohesive.
             </p>
             <div className="imgContainer">
               {/* <iframe
@@ -247,10 +222,11 @@ export default function ResponsiveRedesign() {
               changes in layout relative to the destop view{" "}
               <span>(above image)</span> because I wanted my design to be
               consistent across different screens. The main differences were
-              changing from a two-column display to a one-column display, and
-              adding a hamburger menu to fit the nav bar pages. I made this
-              change to ensure all the content would fit on smaller screen
-              sizes.
+              changing from a two-column display to a{" "}
+              <span className="bold">one-column display</span> and adding a{" "}
+              <span className="bold">hamburger menu </span> to fit the nav bar
+              pages. I made this change to ensure all the content would fit on
+              smaller screen sizes.
             </p>
             <div className="gridContainer">
               <img
@@ -270,16 +246,17 @@ export default function ResponsiveRedesign() {
             <h3>Visual Style Guide</h3>
             <p>
               Once I figured out my layout, I needed to decide on the styling of
-              the page. I was not sure what colors to start with, but I liked
-              the restuarant's color scheme, so I made a style guide that fit
-              the restaurant's brand. This meant selecting similar colors as the
-              original website to stay on theme, but choosing shades with better
-              contrast for accessibility. I chose a dark green and bright yellow
-              because they have good contrast and can serve different purposes.
-              I chose a simpler font so that it would not be too distracting,
-              especially since I chose some bright colors. I also made sure to
-              include hoverable components to ensure consistency in the hover
-              effects.
+              the page. I liked the restuarant's color scheme, so I made a style
+              guide that fit the restaurant's brand. This meant selecting
+              similar colors as the original website to stay on theme, but
+              choosing shades with{" "}
+              <span className="bold">better contrast for accessibility</span>. I
+              chose a dark green and bright yellow because they have good
+              contrast and can serve different purposes. I chose a{" "}
+              <span className="bold">simpler font</span> so that it would not be
+              too distracting, especially since I chose some bright colors. I
+              also made sure to include hoverable components to ensure{" "}
+              <span className="bold">consistency in the hover effects</span>.
             </p>
             <div className="imgContainer">
               <img
@@ -295,13 +272,14 @@ export default function ResponsiveRedesign() {
             <p>
               I then moved on to my high-fidelity mockups, using the styling
               choices in my style guide to build on my wireframes and make a
-              more realistic prototype of the final page. I ended up making
-              green the primary color of the page, and reserving the bright
-              yellow for action items that users should pay attention to (like
-              adding to order and checking out). Below are the mockups for
-              Desktop View <span>(left page)</span>, Tablet View{" "}
-              <span>(middle page)</span>, and Phone View{" "}
-              <span>(right page)</span>.
+              more realistic prototype of the final page. I ended up making{" "}
+              <span className="bold">green the primary color of the page</span>,
+              and reserving the{" "}
+              <span className="bold">bright yellow for action items</span> that
+              users should pay attention to (like adding to order and checking
+              out). Below are the mockups for Desktop View{" "}
+              <span>(left page)</span>, Tablet View <span>(middle page)</span>,
+              and Phone View <span>(right page)</span>.
             </p>
 
             {/* <div className="imgContainer">
@@ -340,10 +318,10 @@ export default function ResponsiveRedesign() {
             />
           </div>
           <p>
-            Alternatively, you can directly visit the page at:{" "}
+            Visit the page at:{" "}
             <a
               href="https://pnguyen37.github.io/responsive-redesign/"
-              className="bold"
+              className="bold underlined"
             >
               New East Side Pockets Online Ordering Page
             </a>

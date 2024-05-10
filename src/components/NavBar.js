@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./NavBar.css";
 import { Link, useLocation } from "react-router-dom";
 
+const resume = process.env.PUBLIC_URL + "files/Pauline_Nguyen_Resume.pdf";
+
 export default function NavBar() {
   const location = useLocation();
   const [activePage, setActivePage] = useState("");
@@ -12,9 +14,7 @@ export default function NavBar() {
 
   return (
     <nav>
-      <div className="nameText">
-          Pauline Nguyen
-      </div>
+      <div className="nameText">Pauline Nguyen</div>
       <div className="navLinks">
         <Link
           className={activePage === "/" ? "active navText" : "navText"}
@@ -28,7 +28,7 @@ export default function NavBar() {
         >
           About
         </Link>
-        <a className="navText" href="">
+        <a className="navText" href={resume} target="_blank">
           Resume{" "}
         </a>
       </div>
