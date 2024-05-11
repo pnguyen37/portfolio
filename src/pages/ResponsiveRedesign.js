@@ -46,7 +46,7 @@ export default function ResponsiveRedesign() {
                 <span className="bold">Role:</span> Designer and Developer
               </p>
               <p>
-                <span className="bold">Skills:</span> Figma, HTML, CSS, Redesign
+                <span className="bold">Skills:</span> HTML, CSS, Figma, Redesign
               </p>
               <p>
                 <span className="bold">Timeline:</span> 3 weeks (2024)
@@ -219,12 +219,12 @@ export default function ResponsiveRedesign() {
             <p>
               For the tablet view <span>(bottom left image)</span>, and the
               phone view <span>(bottom right image)</span>, I did not make major
-              changes in layout relative to the destop view{" "}
+              changes in layout relative to the desktop view{" "}
               <span>(above image)</span> because I wanted my design to be
               consistent across different screens. The main differences were
               changing from a two-column display to a{" "}
               <span className="bold">one-column display</span> and adding a{" "}
-              <span className="bold">hamburger menu </span> to fit the nav bar
+              <span className="bold">hamburger menu </span> to fit the nav-bar
               pages. I made this change to ensure all the content would fit on
               smaller screen sizes.
             </p>

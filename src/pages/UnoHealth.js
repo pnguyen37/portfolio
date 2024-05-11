@@ -52,7 +52,7 @@ export default function UnoHealth() {
                   className="bold underlined"
                   href="https://www.unohealth.com/"
                 >
-                  Uno Health
+                  Uno
                 </a>
                 , a company that focuses on helping Medicare-eligible users get
                 the government benefits they are entitled to. I worked with
@@ -96,9 +96,10 @@ export default function UnoHealth() {
           <h2 className="uppercase">The Process ✎</h2>
           <hr />
           <p>
-            After refining our understanding of the problem, we began sketching
-            to come up with a variety of designs that might help in making the
-            interface less overwhelming.
+            After my team and I refined our understanding of the problem, we
+            began sketching to come up with a variety of designs that might help
+            make the interface less overwhelming. A lot of the sketches
+            separated each upload onto a separate page.
           </p>
           <div className="subsection">
             <h3>Sketches</h3>
@@ -186,10 +187,9 @@ export default function UnoHealth() {
             </ul>
 
             <p>
-              Overall, we were paying closest attention to the ease of
-              navigation and hiding the complexity of the original interface,
-              and we believe that the creation of the linear flow behind a home
-              page with profiles and a dropdown would do that for us.
+              Our main objective was to hide the complexity of the original
+              interface, which using multiple pages to prevent information
+              overload on a single page.
             </p>
           </div>
           <hr className="spacing" />
@@ -337,9 +337,10 @@ export default function UnoHealth() {
               <li>
                 <span className="bold">Clarified application entry point:</span>{" "}
                 I also proposed changing the initial upload button from "Upload
-                documents," to "Go to applcication" because this clearly indicates that the user
-                will not be directly uploading/re-uploading their documents from
-                the home page, but will be redirected.
+                documents," to "Go to applcication" because this clearly
+                indicates that the user will not be directly
+                uploading/re-uploading their documents from the home page, but
+                will be redirected.
               </li>
               <li>
                 <span className="bold">Clarified dropdown button:</span> The
@@ -358,7 +359,7 @@ export default function UnoHealth() {
             </ul>
           </div>
 
-          <hr className="spacing" />
+          {/* <hr className="spacing" />
           <div className="subsection">
             <h3>Style Guide</h3>
             <p>
@@ -372,13 +373,6 @@ export default function UnoHealth() {
             <div className="imgContainer">
               <img src={UnoStyleGuide} alt="uno style guide" />
             </div>
-            {/* <a
-              className="bold"
-              href="https://www.figma.com/file/dTd1HvNalOHYYo3x9HFsvd/Iterative-Lo-Fi%2C-Style-Guide%2C-and-Hi-Fi?type=design&node-id=284%3A2684&mode=design&t=Gk4YGF94alqfNgLh-1"
-            >
-              Click the frame above to see the full style guide, or use this
-              link
-            </a> */}
             <p>
               For icons, buttons, and other components, we stuck to the designs
               given to us in the brand kit. However, we added a couple new{" "}
@@ -393,7 +387,7 @@ export default function UnoHealth() {
                 alt="components showing missing document and uploaded document"
               />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="section">
@@ -402,14 +396,19 @@ export default function UnoHealth() {
           <div className="subsection">
             <h3>Prototype</h3>
             <p>
-              We combined the styling from the style guide and the layout from
+              We combined the styling from Uno's brand kit and the layout from
               our wireframes to get a final prototype. The major design choices
               were using <span className="bold"> one page per upload</span> and
               creating{" "}
               <span className="bold">multiple ways of navigating </span>
-              the upload process We also used styling to guide the user by
+              the upload process. We also used styling to guide the user by
               highlighting
-              <span className="bold"> important actions in dark green</span> .
+              <span className="bold"> important actions in dark green</span> and
+              using{" "}
+              <span className="bold">
+                greens and reds for successes and warnings
+              </span>
+              .
             </p>
             <div className="wideImg imgContainer">
               <iframe
@@ -433,12 +432,12 @@ export default function UnoHealth() {
           <h2 className="uppercase">Next Steps ↪</h2>
           <hr />
           <p>
-            For a final round of feedback, we met with our point of contact.
+            For a final round of feedback, we met with Uno's design lead again.
             Some of the positive feedback mentioned the benefits of the
             preparation page, the use of instructions to guide the user, and the
             separate entrypoints on the home page to prevent mixup between
             members. However, to further improve on this design, we would
-            prioritize the following fixes.
+            prioritize the following fixes based on the feedback we received.
           </p>
           <hr className="spacing" />
           <div className="subsection">
@@ -479,14 +478,15 @@ export default function UnoHealth() {
           <h2 className="uppercase">Takeaways ☺</h2>
           <hr />
           <p>
-            While working with other designers, I learned how to advocate for my
-            design while still being open to feedback. It was a meaningful
-            experience learning how to incorporate everyone's design styles into
-            one final product. I also learned the importance of an iterative
-            design process, as the feedback we received at each step was crucial
-            in improving the usability of our design. Hearing a lot of different
-            perspectives helped us address issues that we would not have noticed
-            otherwise.
+            I enjoyed working with a startup, which was a new experience for me.
+            Also, while working with other designers, I learned how to advocate
+            for my design while still being open to feedback. It was a
+            meaningful experience learning how to incorporate everyone's design
+            styles into one final product. I also learned the importance of an
+            iterative design process, as the feedback we received at each step
+            was crucial in improving the usability of our design. Hearing a lot
+            of different perspectives helped us address issues that we would not
+            have noticed otherwise.
           </p>
         </div>
       </div>
