@@ -5,7 +5,7 @@ import profile from "../assets/images/home/profile_picture.jpg";
 import flowers from "../assets/images/home/landing-image.png";
 import redesignCover from "../assets/images/home/redesign-cover.png";
 import unoCover from "../assets/images/home/uno-cover.png";
-import movieCover from "../assets/images/home/movie-cover.png";
+import litpathCover from "../assets/images/home/litpath-cover.png";
 
 // const profile = process.env.PUBLIC_URL + "/images/profile_picture.jpg";
 const skill1 = ["HTML", "CSS", "Figma"];
@@ -53,12 +53,13 @@ export default function HomePage() {
               skills="Figma | Prototyping"
             />
             <ProjectCard
-              name="Movie Tracker"
-              page="movie-tracker"
-              img={movieCover}
-              alt="Movie Tracker design cover"
-              desc="A web app to filter, sort, and keep track of favorite movies"
-              skills="React | HTML | CSS"
+              name="Lit Path Website"
+              page="litpath"
+              img={litpathCover}
+              alt="Lit Path design cover"
+              desc="Implementation of a web app for a non-profit organization that provides partial scholarships 
+              for psychotherapy"
+              skills="React | JavaScript | HTML | CSS"
             />
           </div>
         </div>

@@ -9,6 +9,7 @@ import HomePage from "./pages/HomePage";
 import ResponsiveRedesign from './pages/ResponsiveRedesign';
 import UnoHealth from "./pages/UnoHealth";
 import MovieTracker from "./pages/MovieTracker";
+import LitPath from './pages/LitPath';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/redesign" element={<ResponsiveRedesign />} />
             <Route path="/unohealth" element={<UnoHealth />} />
-            <Route path="/movie-tracker" element={<MovieTracker />} />
+            <Route path="/litpath" element={<LitPath />} />
           </Route>
         </Routes>
         <Footer/>

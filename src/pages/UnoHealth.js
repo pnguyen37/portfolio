@@ -232,47 +232,6 @@ export default function UnoHealth() {
 
           <hr className="spacing" />
           <div className="subsection">
-            <h3>Critique</h3>
-            <p>
-              Shortly after we created the first wireframe, we received feedback
-              from peers and our point of contact, the design lead on the Uno
-              team. Although they praised the simplicity of our interface, they
-              also gave the following feedback on what we could improve.
-            </p>
-            <ul>
-              <li>
-                <span className="bold">Inconsistent button:</span> "I live on my
-                own" button was a completely different color from other button
-                options, which made its purpose unclear.
-              </li>
-              <li>
-                <span className="bold">Missing edge cases:</span> What if a user
-                hit "save and exit" when no document was uploaded? How do you
-                add more documents or delete one document? What if user needs to
-                skip an upload because they don't have the docuemnt at the
-                moment?
-              </li>
-              <li>
-                <span className="bold">Lacking context:</span> User may not
-                expect the upload process to require so many documents, because
-                there is no warning or preparation stage before they begin the
-                upload process.
-              </li>
-              <li>
-                <span className="bold">Unclear entry point:</span> If "upload
-                document" was clicked again, would this erase all of the
-                documents or keep them (leading users to not act based on fear
-                of wiping progress)?
-              </li>
-              <li>
-                <span className="bold">Unclear intention of dropdown:</span> It
-                wasn't clear what the intention of the dropdown button was
-                (whether it's for required vs. uploaded documents).
-              </li>
-            </ul>
-          </div>
-          <hr className="spacing" />
-          <div className="subsection">
             <h3>Low-fi Wireframe: Iteration 2</h3>
             <p>
               Based on the feedback we received, we updated our wireframe to
@@ -433,11 +392,8 @@ export default function UnoHealth() {
           <hr />
           <p>
             For a final round of feedback, we met with Uno's design lead again.
-            Some of the positive feedback mentioned the benefits of the
-            preparation page, the use of instructions to guide the user, and the
-            separate entrypoints on the home page to prevent mixup between
-            members. However, to further improve on this design, we would
-            prioritize the following fixes based on the feedback we received.
+            To further improve on this design, we would prioritize the following
+            fixes based on the feedback we received.
           </p>
           <hr className="spacing" />
           <div className="subsection">
