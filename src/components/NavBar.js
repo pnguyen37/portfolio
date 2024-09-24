@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./NavBar.css";
 import { Link, useLocation } from "react-router-dom";
 
-const resume = process.env.PUBLIC_URL + "files/Pauline_Nguyen_Resume.pdf";
+const resume = process.env.PUBLIC_URL + "files/Pauline_Nguyen_Frontend_Engineer_Resume.pdf";
 
 export default function NavBar() {
   const location = useLocation();
